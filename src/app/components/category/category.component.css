@@ -1,0 +1,35 @@
+.card{
+    background-color: rgb(134, 241, 134);
+    width:300px;
+    height:300px;
+    margin-left: 50px;
+}
+.col-lg-3{
+    margin:0px;
+    padding: 0px;
+    float:left;
+}
+a{
+    color:black;
+}
+a:hover{
+    text-decoration:none;
+    color:rgb(36, 56, 8)
+}
+.my {
+    
+    -webkit-text-fill-color: transparent;
+    margin-top: 20px;
+    font-size: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: 'Steelfish Rg', 'helvetica neue',
+             helvetica, arial, sans-serif;
+    font-weight: 800;
+    transition: -webkit-transform 0.2s;
+	transition: transform 0.2s;
+	transition: transform 0.2s, -webkit-t
+}

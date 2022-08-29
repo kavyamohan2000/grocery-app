@@ -1,0 +1,13 @@
+<div class="wrapper">
+  <!-- Sidebar -->
+  <nav id="sidebar">
+      <div class="sidebar-header">
+          <h3>Subcategories</h3>
+      </div>
+
+      <div *ngFor='let subcat of sub' class="list-group">
+        <button (click)="OnClickHandle(subcat)" class="list-group-item list-group-item-action flex-column align-items-start">
+         {{subcat.subName}}
+          </button>
+       
+      </div>

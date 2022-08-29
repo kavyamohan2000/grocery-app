@@ -1,0 +1,9 @@
+.card{
+    height:550px;
+    margin:20px;
+    background-color: rgb(134, 241, 134);
+}
+.img-circle{
+    border-radius: 50%;
+    border-color: black;
+}
